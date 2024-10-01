@@ -1,0 +1,5 @@
+Variable Types:	Techniques
+Categorical-Categorical	: Chi-Square Test, Cramér’s V, Phi Coefficient
+Categorical-Numerical :	Point-Biserial Correlation, ANOVA, Kruskal-Wallis Test
+Numerical-Categorical :	Point-Biserial Correlation, ANOVA, Kruskal-Wallis Test
+Numerical-Numerical :	Pearson Correlation, Spearman Correlation, Kendall’s Tau, Mutual Information
