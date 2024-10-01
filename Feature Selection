@@ -3,3 +3,27 @@ Categorical-Categorical	: Chi-Square Test, Cramér’s V, Phi Coefficient
 Categorical-Numerical :	Point-Biserial Correlation, ANOVA, Kruskal-Wallis Test
 Numerical-Categorical :	Point-Biserial Correlation, ANOVA, Kruskal-Wallis Test
 Numerical-Numerical :	Pearson Correlation, Spearman Correlation, Kendall’s Tau, Mutual Information
+
+ 
+Method : Variance Threshold
+Key Characteristics : Removes features with low variance.	
+Pros : Simple and fast	
+Cons : Only based on variance, may remove important features.
+
+ 
+Method : Filter Method
+Key Characteristics : Uses statistical techniques (correlation, chi-square, ANOVA, etc.) to select features.	
+Pros : Fast, model-independent	
+Cons : Ignores feature interactions and model-specific behaviors.
+
+ 
+Method : Wrapper Method
+Key Characteristics : Selects feature subsets based on model performance (Forward, Backward, RFE).	
+Pros : High accuracy, considers feature interactions	
+Cons : Computationally expensive, slow on large datasets.
+
+ 
+Method : Embedded Method
+Key Characteristics : Feature selection is integrated into the model training process (Lasso, Decision Trees, etc.).	
+Pros : Efficient, considers feature importance during training	
+Cons : Model-dependent, may not work for all algorithms.
